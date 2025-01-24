@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/reujab/wallpaper"
+	"github.com/ktkv419/wallpaper"
 )
 
 func main() {
