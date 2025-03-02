@@ -44,7 +44,7 @@ func downloadImage(url string) (string, error) {
 		return "", err
 	}
 
-	file, err := os.Create(filepath.Join(cacheDir, "wallpaper"))
+	file, err := os.Create(filepath.Join(cacheDir, "wallpaper.jpg"))
 	if err != nil {
 		return "", err
 	}
